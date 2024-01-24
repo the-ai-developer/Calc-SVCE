@@ -53,7 +53,7 @@ with st.container():
   left_col, Right_col = st.columns(2)
   with left_col:
         st.subheader("SVCE Internal Marks Calculation Portal :wave:")
-        img=Image.open("Img/Logo.png")
+        img=Image.open("Image/Logo.png")
         st.image(img)
         option = st.selectbox("Select What To Calculate", ["Select One!","FAT Internals", "LAB Internals"],index=0)
         if option=="FAT Internals" :
